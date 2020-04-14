@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mars McCoy Designs</title>
+     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-grid.css" type="text/css" media="all">
+    <link rel="stylesheet" href="mobilemenu.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+
+        <section id="header">
+            <nav>
+                <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#design">Graphic Design Work</a></li>
+                <li><a href="#ill">Illustration Work</a></li>
+                <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+    <!-- mobile Navigation Menu -->
+    <section id="mobileNav">
+        <div class="topnav">
+            <a href="#home" class="active">   </a>
+            <div id="myLinks">
+              <a href="#intro">Introduction</a>
+              <a href="#design">Graphic Design Work</a>
+              <a href="#ill">Illustration Work</a>
+              <a href="#footer">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </section>
+
+    <main class="site">
+
+        <section id="hero">
+            <h1>Visually Inclined <br> Graphically Expressive</h1>
+            <h2> Graphic Design &nbsp;&nbsp;  | &nbsp;&nbsp;  Brand Development  &nbsp;&nbsp; |  &nbsp;&nbsp; Illustration</h2>
+        </section>
+
+        <section id="intro" class="intro">
+                <p> 
+                    My name is Mars McCoy. I am currently in my second year at Wake Tech, pursuing an Associate of Applied Science degree in Advertising and Graphic Design. Though my original plan was to become a dental hygienist, I decided to work towards becoming a graphic designer to put my creative talents to good use. My goal as a future graphic designer is to work in product design fields, designing merchandise for companies and franchises, and possibly opening a successful online shop for my pieces.
+
+                    Ever since I was young, I’ve been told I’ve always been artistic and creative, like many of my family members before me. I love drawing digitally and posting my pieces to my Instagram, as well as doing commissions and pin making. A lot of my artistic talent comes from my Dad, who is also a graphic designer. He has taught and helped me a lot over the years. I have also been lucky enough to have had a lot of support and resources from my family and friends. With all of this in mind, I thought it only made sense that I go to school for graphic design.</p>
+        </section>
+
+        <section id="design" class="grid-container">
+                
+                <img class="grid-item" id="pic1" src="images/report.jpg" alt="annual report cover">
+                <img class="grid-item" id="pic2" src="images/can.jpg" alt="tin tea can">
+                <img class="grid-item" id="pic3" src="images/page.jpg" alt="brochure mockup">
+                <img class="grid-item" id="pic5" src="images/shirt.jpg" alt="t-shirt on hanger with logo">
+                <img class="grid-item" id="pic4" src="images/cold.jpg" alt="ice cream logo">
+                <img class="grid-item" id="pic6" src="images/tags.jpg" alt="Jene Guarden product tag">
+                <img class="grid-item" id="pic7" src="images/gsa.jpg" alt="Graphic Standards Manual Cover">
+                <img class="grid-item" id="pic8" src="images/postcard.jpg" alt="pantone beach postcard">
+                <img class="grid-item" id="pic9" src="images/book.jpg" alt="book cover mockup">
+                <img id="ill" class="grid-item" id="1pic" src="images/g2.jpg" alt="glowing goldfish">
+                <img class="grid-item" id="2pic" src="images/g1.jpg" alt="plant arrangement">
+                <img class="grid-item" id="3pic" src="images/g3.jpg" alt=" another glowing goldfish">
+                <img class="grid-item" id="4pic" src="images/s1.jpg" alt="hammerhead shark">
+                <img class="grid-item" id="5pic" src="images/s2.jpg" alt="plant arrangement">
+                <img class="grid-item" id="6pic" src="images/s3.jpg" alt="another hammerhead shark">
+                <img class="grid-item" id="7pic" src="images/f1.jpg" alt="swimming stingray">
+                <img class="grid-item" id="8pic" src="images/f2.jpg" alt="plant arrangement"> 
+                <img class="grid-item" id="9pic" src="images/f3.jpg" alt="another hammerhead shark">
+
+        </section>
+
+        <footer id="footer">
+            <h2>Follow Me On My Social</h2>
+            <ul id="social">
+                <li><a href="maren.mcccoy.designs@gmail.com">maren.mccoy.designs@gmail.com</a></li>
+                <li><a href="https://www.instagram.com/_.maren.mccoy.designs._/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/Maren_McCoy_" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/maren-mccoy-835553187/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/marenmccoydesigns/?modal=admin_todo_tour" target="_blank">Facebook</a></li>
+              </ul>
+        </footer>
+
+    </main>
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</html>
