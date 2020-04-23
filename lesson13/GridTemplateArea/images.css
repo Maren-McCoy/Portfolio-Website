@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cardImage {
+padding:100% 0 0 0;position:relative;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+margin-bottom: 25px;
+
+}
+
+#pic01 { background-image:url("images/report.jpg"); background-size: cover;}
+#pic02 { background-image:url("images/can.jpg"); background-size: cover;}
+#pic03 { background-image:url("images/page.jpg"); background-size: cover;}
+#pic04 { background-image:url("images/shirt.jpg"); background-size: cover;}
+#pic05 { background-image:url("images/cold.jpg"); background-size: cover;}
+#pic06 { background-image:url("images/tags.jpg"); background-size: cover;}
+#pic07 { background-image:url("images/gsa.jpg"); background-size: cover;}
+#pic08 { background-image:url("images/postcard.jpg"); background-size: cover;}
+#pic09 { background-image:url("images/book.jpg"); background-size: cover;}
+#pic10 { background-image:url("images/g1.jpg"); background-size: cover;}
+#pic11 { background-image:url("images/g2.jpg"); background-size: cover;}
+#pic12 { background-image:url("images/g3.jpg"); background-size: cover;}
+#pic13 { background-image:url("images/s1.jpg"); background-size: cover;}
+#pic14 { background-image:url("images/s2.jpg"); background-size: cover;}
+#pic15 { background-image:url("images/s3.jpg"); background-size: cover;}
+#pic16 { background-image:url("images/f1.jpg"); background-size: cover;}
+#pic17 { background-image:url("images/f2.jpg"); background-size: cover;}
+#pic18 { background-image:url("images/f3.jpg"); background-size: cover;}
+#pic19 { background-image:url("images/web1.jpg"); background-size: cover;}
+#pic20 { background-image:url("images/web2.jpg"); background-size: cover;}
+#pic21 { background-image:url("images/web3.jpg"); background-size: cover;}
